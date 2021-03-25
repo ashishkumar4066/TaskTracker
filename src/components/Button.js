@@ -5,7 +5,7 @@ const Button = (props) => {
 		<button
 			className="btn"
 			style={{ backgroundColor: props.color }}
-			onClick={props.onClick}
+			onClick={props.onShow}
 		>
 			{props.text}
 		</button>
